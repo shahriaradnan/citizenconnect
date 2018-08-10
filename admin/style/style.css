@@ -1,0 +1,38 @@
+/*=========
+pt_support
+===========*/
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+}
+.container { width:850px; margin-bottom:35px; }
+
+h4 { background-color:#669955; padding:20px; margin:2px; }
+
+.like_img {
+	background-image:url(like.png);
+	background-repeat:no-repeat;
+	padding-left:35px;
+	cursor:pointer;
+	width:80px;
+}
+.liked_img {
+	background-image:url(liked.png);
+	background-repeat:no-repeat;
+	padding-left:35px;
+	cursor:pointer;
+	width:80px;
+}
+.right {
+	float:right;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+/*=========
+pt_support
+===========*/

@@ -1,0 +1,23 @@
+.tiles {
+	border-radius: 5px;
+	border: 2px solid #d0ddc6;
+	background-color: #77ab59;
+	height:50px;
+	width: 220px;
+	margin: auto;
+	text-align: center;
+}
+
+.tiles a {
+	text-decoration: none;
+	color: #3D59AB;
+	width: 100px;
+    height: 50px;
+	font-family: Verdana, sans-serif;
+	display: inline-block;
+}
+.tiles span {
+	font-weight: bold;
+	font-size: 18px;
+	color: #000000;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://dncc.citizenconnect.org/</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/reportview.php?reportID="+rid+"</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/index.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/bn/</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/newreport.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/faq.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/index.php?page=1</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/bn/reportview.php?reportID="+rid+"</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/bn/index.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/bn/newreport.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/bn/faq.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://dncc.citizenconnect.org/bn/index.php?page=1</loc>
+  <changefreq>always</changefreq>
+</url>
+</urlset>

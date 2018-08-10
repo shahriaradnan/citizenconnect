@@ -1,0 +1,704 @@
+/* =========================================
+   CSS Styles - Boilerplate Styles / Initializr customized
+   ========================================= */
+
+
+body, html, button, input, select, textarea {
+  font-family: Calibri, sans-serif; 
+  color: #333333;
+}
+
+body {
+  width: auto;
+  height: auto;  
+  background: white;      /*color setting*/
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 150%;
+  position: relative;
+  cursor: default;
+}
+::-moz-selection { background: #333333; color: #ffffff; text-shadow: none; }
+::selection { background: #333333; color: #ffffff; text-shadow: none; }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #cccccc;
+    color: #333333;
+    padding: 0.2em 0;
+}
+
+/* =======================================================
+   Initializr Styles - customized
+   from Jonathan Verrecchia - verekia.com/initializer/reponsive-template
+   ======================================================= */
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+a { color: inherit;font-style:inherit;text-decoration: none; }
+a:hover { color:inherit;font-style: oblique;text-decoration: underline; }
+a:visited { color: inherit;font-style: inherit;text-decoration: none;}
+a:focus { color: inherit;font-style: oblique;text-decoration: none; outline: none;}
+a:active { color: inherit;font-style: inherit;text-decoration: underline; outline: none; }
+a.more {color: inherit;font-style: inherit; font-weight: bold;text-decoration: none;}
+
+
+/* ===================
+    Page theme
+   =================== */
+
+.header-container {
+    background: #333366;
+    border-bottom: 20px solid #669933;
+    color: #ffffff;
+}
+
+.main aside {
+    background-color: #333366;
+  /*#333366  */
+    border-top: 20px solid #669933;
+     /*#669933  */
+    color:  #ffffff;
+}
+
+.footer-container {
+    background: #333366;
+    border-top: 20px solid #669933;
+    color: #ffffff;
+    text-align: left;
+    
+}
+/*==Footer:Tools==
+.footer-container #footer-tools { float:right; color:#000000; padding-top:15px; }
+.footer-container #footer-tools a{ color:#000000; }
+.footer-container #footer-tools span{ color:#000000; }
+}
+*/
+
+
+
+.first {
+    border-top: 20px solid #669933;
+}
+
+.page {
+    list-style-type: none;
+    display:  inline;
+}
+
+/* ==============
+    Menu
+   ============== */
+
+nav{
+  vertical-align:baseline;
+  background:transparent;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin: 1%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* ==============
+    Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    padding: 20px 0;
+}
+/*==============================
+Log In CSS
+================================
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+/*body {
+  background: url(https://dl.dropboxusercontent.com/u/23299152/Wallpapers/wallpaper-22705.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}*/
+
+.login-card {
+  padding: 20px;
+  width: 274px;
+  background-color: #669933;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+
+}
+
+.login-card h1 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.3em;
+  color: 
+}
+
+.login-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login-card input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-card input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0,0,0,0.9); 
+}
+.login-help a{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+/*====================
+Sign Up
+==================*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+/*body {
+  background: url(https://dl.dropboxusercontent.com/u/23299152/Wallpapers/wallpaper-22705.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}*/
+
+.signup-card {
+  padding: 40px;
+  width: 400px;
+  background-color: #669933;
+  margin: 0 auto 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.signup-card h1 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+.signup-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.signup-card input[type=text],input[type=email], input[type=password] {
+  height: 34px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.signup-card input[type=text]:hover,input[type=email]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.signup-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.signup-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.signup-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.signup-card a:hover {
+  opacity: 1;
+}
+
+.signup-help {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0,0,0,0.9); 
+}
+.signup-help a{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.back_home{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0,0,0,0.9); 
+}
+.back_home a{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+/*==========================
+Tiles Used IN Personal Pages
+============================
+*/
+.tiles {
+    border-radius: 5px;
+    border: 2px solid #d0ddc6;
+    background-color: #669933;
+    height:80px;
+    width: 220px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.4);
+
+    
+    
+
+}
+
+.tiles a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, sans-serif;
+    display: inline-block;
+    padding: 30px 10px 5px 10px;  /* : top right bottom left*/
+   
+}
+.tiles span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+/*=====contact: Specific Persona;
+*/
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        min-width: 48%; width:25%
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    .lb-album li {
+        width: 49%;
+    }
+
+    .lb-overlay li {
+    width: 30%;
+} 
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    DESKTOP: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+     box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, 0.4);
+    }
+
+/* ============
+    DESKTOP: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: left;
+        width: 100%;
+    }
+
+nav a {
+       float: left;
+        min-width: 12%;
+        margin: 0 1.6%;
+        padding: 10px 1%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+
+/*==========
+TOP-Right NAV
+*/
+#top-navigation { float:right; white-space:nowrap; color:#fff; padding-top:15px; }
+#top-navigation a{ color:#fff; }
+#top-navigation span{ color:#000000; }
+/* ============
+    DESKTOP: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        min-height: 740px;
+        float: right;
+        width: 30%;
+    }
+
+ .lb-album li {
+        width: 32%;
+    }
+
+.lb-overlay > div {
+    width:  40%;
+    max-width:  420px;
+    float:  left;
+}
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    HD SCREEN
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+ .lb-album li {
+        width: 24%;
+    }
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

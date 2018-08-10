@@ -1,0 +1,122 @@
+@import url(api.css);
+
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+* { box-sizing: border-box; }
+html {
+  font-size: 16px;
+  height: 100%;
+}
+body {
+ /* background: url(http://flickholdr.iwerk.org/1000/600/blur/bw) center top no-repeat;
+  background: url(images/DSC03247.jpg) center no-repeat;*/
+  background: url(images/checkeredpattern.png7) center no-repeat;
+  background-size: cover;
+  font-family: 'Nunito';
+}
+.signin {
+  width: 300px;
+  height: 290px;
+  background: rgba(0,0,0,0.5);
+  margin: 10vh auto 0 auto;
+  padding: 0 1.1em;
+}
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.05em;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  padding: 35px 0;
+}
+.wrapper {
+  margin: 0 auto 20px auto;
+  border-radius: 3px;
+  box-shadow: inset 4px 6px 10px -4px rgba(0,0,0,0.3), 0 1px 1px -1px rgba(255,255,255,0.5);
+}
+input {
+  width: 83.5%;
+  height: 47px;
+  background: rgba(0,0,0,0.2);
+  font-size: 0.85em;
+  color: #fff;
+  border: none;
+  padding: 15px 5px;
+}
+input[placeholder] {
+  color: #666;
+}
+input:valid {
+  color: #fff;
+}
+input:focus {
+  outline: none;
+}
+input:invalid {
+  color: #CA3435;
+  border: none;
+}
+input[type=submit] {
+  width: 100%;
+  text-transform: uppercase;
+  /*background: #ca3435;*/
+  background: rgba(0, 67, 0, 0.4);
+  cursor: pointer;
+  font-family: 'Nunito';
+  border-radius: 3px;
+}
+input[type=submit]:hover {
+  /*background: rgba(202, 52, 53, 0.9);
+  background: rgba(250, 0, 0, 0.5);*/
+  background: #e11837;
+
+}
+label {
+  float: left;
+  background: rgba(0,0,0,0.2);
+  color: #666;
+  padding: 5px 10px;
+  font-size: 1.4em;
+  height: 47px;
+  border-radius: 3px 0 0 3px;
+}
+label:after {
+  content: '';
+  display: inline-block;
+  border-right: 1px solid #666;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: -5px;
+  height: 25px;
+}
+footer {
+  width: 300px;
+  margin: auto;
+  padding: 25px 0;
+  background: rgba(0,0,0,0.5);
+  border-top: 1px solid black;
+  text-align: center;
+}
+footer p {
+  color: #a3a3a3;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover, a:active {
+  color: #fff;
+}
+p.forget {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 30px 0;
+}
+p.forget a:hover,
+p.forget a:active {
+  color: #111;
+}
